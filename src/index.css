@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Commissioner', sans-serif;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: rgba(0, 0, 0, 0.754);
+  width: fit-content;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  25% {
+    border-radius: 45% 60% 30% 65%/45% 35% 65% 55%;
+  }
+  50% {
+    border-radius: 30% 90% 40% 60%/30% 60% 40% 70%;
+  }
+  75% {
+    border-radius: 45% 55% 65% 65%/45% 35% 65% 55%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 75%/60% 30% 75% 40%;
+  }
+}
+
+@-webkit-keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  25% {
+    border-radius: 45% 60% 30% 65%/45% 35% 65% 55%;
+  }
+  50% {
+    border-radius: 30% 80% 40% 60%/30% 60% 40% 70%;
+  }
+  75% {
+    border-radius: 45% 55% 65% 65%/45% 35% 65% 55%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 75%/60% 30% 75% 40%;
+  }
+}
+.hero-img {
+  -webkit-animation: morph 15s ease-in-out infinite;
+  animation: morph 15s ease-in-out infinite;
+  background-image: url(../public//image/profile.jpeg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  height: 25rem;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 25rem;
+}
+
+.hero-img:hover {
+  
+}
