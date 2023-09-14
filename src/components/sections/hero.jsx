@@ -6,8 +6,8 @@ export default function Hero() {
     <section className="mt-16 flex flex-col  justify-center mx-auto w-full">
           <div className="flex md:flex-row flex-col-reverse justify-between md:gap-0 gap-8 md:px-2 px-2">  
             <div className="md:w-6/12 mx-auto h-fit my-auto flex flex-col gap-8">
-              <h1 className="md:text-6xl text-5xl font-bold">Full-Stack Software Developer <span className="inline-block"><img className="w-14" src="/icons/wave.png" alt="" /></span></h1>
-              <p className="text-xl">Hi, I'm Arnold Mudosa. A passionate Software Developer based in Kigali, Rwanda.📍</p>
+              <h1 className="md:text-6xl text-4xl font-bold">Full-Stack Software Developer <span className="inline-block"><img className="md:w-14 w-10" src="/icons/wave.png" alt="" /></span></h1>
+              <p className="md:text-xl">Hi, I'm Arnold Mudosa. A passionate Software Developer based in Kigali, Rwanda.📍</p>
               <div className='flex gap-2'>
                 <a href='https://www.linkedin.com/in/harold-mudosa/' target='blank' className='hover:text-blue-500 text-3xl'><CiLinkedin /></a>
                 <a href='https://github.com/haroldmud' target='blank' className='hover:text-blue-500 text-2xl my-auto'><LuGithub /></a>

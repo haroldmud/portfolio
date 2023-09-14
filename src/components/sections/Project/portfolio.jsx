@@ -9,7 +9,7 @@ export default function Portfolio() {
     <section className="md:pt-40 pt-20 max-w-[80rem] mx-auto">
           <section className="md:px-14 px-4">
             <h1 className="text-2xl text-blue-400">PORTFOLIO</h1>
-            <p className="text-4xl font-bold mt-4">Each project is a unique piece of development 🧩</p>
+            <p className="md:text-4xl text-2xl font-bold mt-4">Each project is a unique piece of development 🧩</p>
     <section className="mt-4 grid md:gap-2">
       <Project 
         image1='/image/newsxo.png'

@@ -11,8 +11,8 @@ export default function Project(props) {
                   <div className="absolute group-hover:block hidden top-0 dark h-full w-full lg:rounded-2xl rounded-lg">
                     <div className="lg:rounded-2xl rounded-lg h-full flex justify-center">
                       <div className="my-auto flex gap-4 text-white lg:text-4xl text-2xl">
-                        <a href={props.demo1} target="blank" className=""><span className={`${props.demo} inline-block ml-1`}><MdOutlineConnectedTv/></span></a>
-                        <a href={props.code1} target="blank"><span className="inline-block  ml-1"><FaLaptopCode /></span></a>
+                        <a href={props.demo1} target="blank" className=""><span className={`${props.demo} inline-block ml-1 hover:text-blue-300`}><MdOutlineConnectedTv/></span></a>
+                        <a href={props.code1} target="blank"><span className="inline-block ml-1 hover:text-blue-300"><FaLaptopCode /></span></a>
                       </div>
                     </div>
                   </div>
@@ -32,8 +32,8 @@ export default function Project(props) {
                   <div className="absolute group-hover:block hidden top-0 dark h-full w-full lg:rounded-2xl rounded-lg">
                     <div className="lg:rounded-2xl rounded-lg h-full flex justify-center">
                       <div className="my-auto flex gap-4 text-white lg:text-4xl text-2xl">
-                        <a href={props.demo2} target="blank" className=""><span className="inline-block ml-1"><MdOutlineConnectedTv/></span></a>
-                        <a href={props.code2} target="blank"><span className="inline-block  ml-1"><FaLaptopCode /></span></a>
+                        <a href={props.demo2} target="blank" className=""><span className="inline-block ml-1 hover:text-blue-300"><MdOutlineConnectedTv/></span></a>
+                        <a href={props.code2} target="blank"><span className="inline-block ml-1 hover:text-blue-300"><FaLaptopCode /></span></a>
                       </div>
                     </div>
                   </div>

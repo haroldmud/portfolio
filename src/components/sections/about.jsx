@@ -1,8 +1,8 @@
 
 export default function About() {
   return(
-    <section className="max-w-[80rem] mt-16 flex flex-col  justify-center mx-auto w-fulllg:px-14 px-4">
-            <h1 className="text-blue-400 text-2xl lg:mb-6 ">ABOUT ME</h1> 
+    <section className="max-w-[80rem] mt-16 flex flex-col  justify-center mx-auto w-full lg:px-14 px-4">
+            <h1 className="text-blue-400 text-2xl mb-6 ">ABOUT ME</h1> 
           <div className="lg:flex grid gap-8 "> 
             <div className="mx-auto h-fit my-auto lg:w-[50%]">
               <img className="lg:rounded-2xl rounded-lg" src="https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt="" />
