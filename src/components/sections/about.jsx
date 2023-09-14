@@ -13,7 +13,7 @@ export default function About() {
                 <p >
                 My skill set includes proficiency in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I specialize in creating and maintaining responsive websites that deliver exceptional user experiences.
                 </p>
-                <p>
+                <p className="md:block hidden">
                  My approach centers on crafting dynamic, engaging interfaces by adhering to best practices and writing clean, optimized code. I'm always up-to-date with the latest development tools and techniques, ensuring that I can employ cutting-edge solutions to meet project goals.
                 </p>
               </div>
