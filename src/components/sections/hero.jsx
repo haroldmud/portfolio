@@ -13,7 +13,7 @@ export default function Hero() {
                 <a href='https://github.com/haroldmud' target='blank' className='hover:text-blue-500 text-2xl my-auto'><LuGithub /></a>
               </div>
             </div>
-            <div className="hero-img mx-auto"></div>
+            <div className="hero-img mx-auto md:w-[25rem] w-[20rem] md:h-[25rem] h-[20rem]"></div>
           </div>
           <div className="flex md:flex-row flex-col gap-4 mx-auto mt-20">
             <h2 className="my-auto mx-auto">Frontend Stack</h2>
