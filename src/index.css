@@ -4,13 +4,15 @@
 
 body {
   font-family: 'Commissioner', sans-serif;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: rgba(0, 0, 0, 0.754);
-  width: fit-content;
 }
 
 .dark {
-  background-color: rgba(0, 0, 0, 0.201);
+  background-color: rgba(0, 0, 0, 0.18);
+}
+
+.darker {
+  background-color: rgba(0, 0, 0, 0.754);
 }
 
 @keyframes morph {
@@ -51,7 +53,7 @@ body {
 .hero-img {
   -webkit-animation: morph 15s ease-in-out infinite;
   animation: morph 15s ease-in-out infinite;
-  background-image: url(../public//image/profile.jpeg);
+  background-image: url(../public//image/me.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

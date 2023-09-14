@@ -2,22 +2,21 @@ import Header from "./components/sections/headers";
 import Hero from "./components/sections/hero";
 import About from "./components/sections/about";
 import Footer from "./components/interface/footer";
-import Trap from "./components/interface/trap";
-import Portfolio from "./components/sections/Project/protfolio";
+import Portfolio from "./components/sections/Project/portfolio";
 import Contact from "./components/sections/contact";
 
 function App() {
   return (
     <section className="">
       <Header />
-      <section className="bg-slate-100 pb-32">
+      <section id="hero" className="bg-slate-100 pb-32">
         <section className="pt-40 max-w-[80rem] mx-auto">
           <Hero />
         </section>
       </section>
       <section id="about" className="lg:py-32 pb-20">
         <About />
-        <Trap />
+        {/* <Trap /> */}
       </section>
       <section id="project" className="bg-slate-100 pb-32">
         <Portfolio />

@@ -11,18 +11,18 @@ export default function Project(props) {
                   <div className="absolute group-hover:block hidden top-0 dark h-full w-full lg:rounded-2xl rounded-lg">
                     <div className="lg:rounded-2xl rounded-lg h-full flex justify-center">
                       <div className="my-auto flex gap-4 text-white lg:text-4xl text-2xl">
-                        <a href={props.demo1} target="blank" className=""><span className="inline-block ml-1"><MdOutlineConnectedTv/></span></a>
+                        <a href={props.demo1} target="blank" className=""><span className={`${props.demo} inline-block ml-1`}><MdOutlineConnectedTv/></span></a>
                         <a href={props.code1} target="blank"><span className="inline-block  ml-1"><FaLaptopCode /></span></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="lg:text-center my-auto grid lg:gap-8 gap-4 lg:mt-0 mt-6">
+                <div className="lg:text-center my-auto grid lg:gap-8 gap-4 lg:mt-auto mt-6">
                   <h2 className="lg:text-4xl text-2xl font-bold">{props.project1}</h2>
                   <p className="text-gray-400 lg:text-xl lg:px-10">{props.description1}</p>
                   <div className="flex gap-4 justify-center">
-                    <p className="border w-fit p-2 shadow-lg">{props.js1}</p>
-                    <p className={`${props.cssa} border w-fit p-2 shadow-lg`}>{props.css1}</p>
+                    <p className="w-fit p-2 text-2xl">{props.js1}</p>
+                    <p className={`${props.cssa} w-fit p-2 text-2xl`}>{props.css1}</p>
                   </div>
                 </div>
               </div>
@@ -38,12 +38,12 @@ export default function Project(props) {
                     </div>
                   </div>
                 </div>
-                <div className="lg:text-center my-auto grid lg:gap-8 gap-4 lg:mt-0 mt-6">
+                <div className="lg:text-center my-auto grid lg:gap-8 gap-4 lg:mt-auto mt-6">
                   <h2 className="lg:text-4xl text-2xl font-bold">{props.project2}</h2>
-                  <p className="text-gray-400 lg:text-xl lg:px-10">{props.description2}</p>
+                  <p className="text-gray-400  lg:px-10">{props.description2}</p>
                   <div className="flex gap-4 justify-center">
-                    <p className="border w-fit p-2 shadow-lg">{props.js2}</p>
-                    <p className={`${props.cssb} border w-fit p-2 shadow-lg`}>{props.css2}</p>
+                    <p className="w-fit p-2 text-2xl">{props.js2}</p>
+                    <p className={`${props.cssb} w-fit p-2 text-2xl`}>{props.css2}</p>
                   </div>
                 </div>
               </div>

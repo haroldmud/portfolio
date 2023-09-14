@@ -1,16 +1,15 @@
 
 export default function About() {
   return(
-    <section className="max-w-[80rem] mt-16 flex flex-col  justify-center mx-auto w-full">
-          <div className="lg:flex grid gap-8 lg:px-14 px-4"> 
-          <h1 className="text-blue-400 text-2xl lg:mb-6 block lg:hidden">ABOUT ME</h1> 
+    <section className="max-w-[80rem] mt-16 flex flex-col  justify-center mx-auto w-fulllg:px-14 px-4">
+            <h1 className="text-blue-400 text-2xl lg:mb-6 ">ABOUT ME</h1> 
+          <div className="lg:flex grid gap-8 "> 
             <div className="mx-auto h-fit my-auto lg:w-[50%]">
-              <img className="lg:rounded-[3rem] rounded-lg" src="https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt="" />
+              <img className="lg:rounded-2xl rounded-lg" src="https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt="" />
             </div>
-            <div className="my-auto lg:w-[50%] grid gap-4">
-              <h1 className="text-blue-400 text-2xl lg:block hidden">ABOUT ME</h1>
-              <h2 className="lg:text-4xl text-2xl font-bold">A passionate Software Developer with a strong foundation in web development.</h2>
-              <div className=" text-gray-400 lg:text-xl">
+            <div className="my-auto lg:w-[50%] grid gap-6">
+              <h2 className="lg:text-4xl text-2xl font-bold">Strong foundation in web development.</h2>
+              <div className=" text-gray-400 grid gap-4">
                 <p >
                 My skill set includes proficiency in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I specialize in creating and maintaining responsive websites that deliver exceptional user experiences.
                 </p>

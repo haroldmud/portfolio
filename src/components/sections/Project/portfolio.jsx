@@ -1,4 +1,8 @@
 import Project from "./projects"
+import { SiTailwindcss } from 'react-icons/si'
+import { FaReact } from 'react-icons/fa'
+import { TbBrandNextjs } from 'react-icons/tb'
+import { SiPostgresql } from 'react-icons/si'
 
 export default function Portfolio() {
   return(
@@ -13,46 +17,31 @@ export default function Portfolio() {
         code1='https://github.com/haroldmud/newsxo'
         project1='NewsXO'
         description1='NewsXO is a dynamic and innovative online news platform that provides users with timely, accurate, and engaging news coverage from around the world. Our mission is to deliver comprehensive and balanced reporting on a wide range of topics, including politics, business, technology, entertainment, sports, and more.'
-        js1='REACT'
-        css1='TCSS'
+        js1={<FaReact/>}
+        css1={<SiTailwindcss />}
         image2='/image/beton-clef.png'
         demo2='https://dev--hilarious-monstera-5162d7.netlify.app/'
         code2='https://github.com/haroldmud/beton-clef'
         project2='Béton-Clef Technique'
         description2={`Béton-Clef Technique's (BCT) website is a well-designed and informative resource for anyone interested in their construction services. The it's home page contains interesting features as rotating slider with images of their recent projects, as well as a brief overview of the company's history and capabilities. `}
-        js2='NEXT'
-        css2='TCSS'
-      />
-      <Project 
-        image1='/image/vanlife.png'
-        demo1='https://vanlife-cyan.vercel.app/vans'
-        code1='https://github.com/haroldmud/vanlife'
-        project1='VANLIFE'
-        description1='Vanlife is a single-page application that uses React Router DOM to manage the routing between different pages.  Users can also browse vans by category, such as camper vans, cargo vans, and passenger vans. Once a user has found a van that they are interested in, they can click on the "Rent this van" button to start the booking process.'
-        js1='REACT'
-        css1='TCSS'
-        image2='/image/native.jpg'
-        demo2='https://docs.expo.dev/get-started/expo-go/'
-        code2='https://github.com/haroldmud/space-mission'
-        project2='SPACE-MISSION'
-        description2={`This is an app that retrieves data containing missions and rockets from spaceX API and allows the user to join the missions or book the different rockets. And all of this was built in a beautiful and well-organized way! `}
-        js2='REACT NATIVE'
-        cssb='hidden'
+        js2={<TbBrandNextjs />}
+        css2={<SiTailwindcss />}
       />
       <Project
-        image1='/image/ruby.png'
-        demo1='https://github.com/haroldmud/my-oop-library-school/blob/dev/README.md'
-        code1='https://github.com/haroldmud/my-oop-library-school/blob/dev'
-        project1='MY OOP LIBRARY'
-        description1={`The app MY OOP LIBRARY will allow us to Add new students or teachers, Add new books and Save records of who borrowed a given book and when. And all of this was built in a beautiful and well-organized way! `}
-        js1='RUBY'
+        image1='/image/native.jpg'
+        demo1='https://docs.expo.dev/get-started/expo-go/'
+        code1='https://github.com/haroldmud/space-mission'
+        project1='SPACE-MISSION'
+        description1={`This is an app that retrieves data containing missions and rockets from spaceX API and allows the user to join the missions or book the different rockets. And all of this was built in a beautiful and well-organized way!`}
+        js1={<div className=" grid -gap-6"><FaReact className="mx-auto" /><span className="text-sm text-center">native</span></div>}
         cssa='hidden' 
         image2='/image/sql.png'
         demo2='https://github.com/haroldmud/Vet-clinic-project/blob/dev/README.md'
+        demo='hidden'
         code2='https://github.com/haroldmud/Vet-clinic-project/blob/dev'
         project2='VET CLINIC DATABASE'
         description2='vet clinic database was created using PostgreSQL SQL. The database has tables for animals, owners, vets, visits, medications, and invoices.  '
-        js2='PLpgSQL'
+        js2={<SiPostgresql />}
         cssb='hidden'
       />
     </section>
