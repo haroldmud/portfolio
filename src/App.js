@@ -12,7 +12,7 @@ function App() {
       <Header />
       <HeaderMob />
       <section id="hero" className="bg-slate-100 pb-32">
-        <section className="pt-40 max-w-[80rem] mx-auto">
+        <section className="md:pt-40 pt-12 max-w-[80rem] mx-auto">
           <Hero />
         </section>
       </section>
