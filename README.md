@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:asdfas
+In the project directory, you can run:asdfa
 
 ### `npm start`
 
