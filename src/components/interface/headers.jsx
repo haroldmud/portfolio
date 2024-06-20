@@ -13,17 +13,17 @@ export default function Header() {
           </button>
           <ul className="gap-6 md:flex hidden flex-end text-xl">
             <li className='cursor-pointer'>
-              <Link to="hero" smooth={true} duration={500} className='hover:text-blue-400'>
+              <Link to="hero" smooth={true} duration={600} className='hover:text-blue-400'>
                 Home
               </Link>
             </li>
             <li className='cursor-pointer'>
-              <Link to="about" smooth={true} duration={500} className='hover:text-blue-400'>
+              <Link to="about" smooth={true} duration={600} className='hover:text-blue-400'>
                 About
               </Link>
             </li>
             <li className='cursor-pointer'>
-              <Link to="project" smooth={true} duration={500} className='hover:text-blue-400'>
+              <Link to="project" smooth={true} duration={600} className='hover:text-blue-400'>
                 Projects
               </Link>
             </li>
